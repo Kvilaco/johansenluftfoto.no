@@ -21,10 +21,6 @@ const menuItems = [
         link: "portfolio.html",
     },
     {
-        name: "Utstyr",
-        link: "drones_and_cameras.html",
-    },
-    {
         name: "Priser",
         link: "services_and_prices.html",
     },
