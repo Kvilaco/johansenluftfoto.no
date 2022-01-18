@@ -5,7 +5,6 @@
     <title>Services and prices</title>
     <link rel="stylesheet" href="css/main.css">
     <script src="js/common.js"></script>
-    <script src="js/pricecalculator.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -135,50 +134,6 @@
             </ul>
 
             <h3 class="quote-author">20 000,-</h3>
-        </div>
-    </div>
-
-<div class="infobox navy">
-
-        <div class="top-margin-7 column wide" style="color: rgb(201, 201, 201);">
-
-            <form id="priceCalculator" method="post">
-                <h2 class="highlight orange">Priskalkulator</h2>
-                <p>Bruk kalkulatoren til å få et prisestimat.<br>
-                    Kontakt meg gjerne for en hyggelig fotoprat - så finner vi en pris som fungerer for oss begge!</p>
-                <label for="amount_hours">Velg lengde på foto-oppdraget</label><br>
-                <select id="amount_hours" name="Antall timer">
-                    <option value="0.5" label="30 minutter"></option>
-                    <option value="0.75" label="45 minutter"></option>
-                    <option value="1" label="60 minutter"></option>
-                    <option value="5" label="Halv dag"></option>
-                    <option value="9" label="Hel dag"></option>
-                </select>
-
-                <p>Ønsker du bilder, video eller begge deler?</p>
-                <input type="radio" id="film_photo3" name="products" value="VideoPhoto" checked>
-                <label for="film_photo3"> Jeg ønsker både bilder og videofilm</label><br>
-                <input type="radio" id="film_photo2" name="products" value="Video">
-                <label for="film_photo2"> Jeg ønsker kun videofilm</label><br>
-                <input type="radio" id="film_photo1" name="products" value="Fotografi">
-                <label for="film_photo1"> Jeg ønsker kun bilder</label><br>
-
-                <p>
-                    Inkludert i prisen er levering av digitale filer.<br>
-                    Huk av om du ønsker print av fotografiene i tillegg:
-                </p>
-                <input type="checkbox" id="print" name="Trykk" value="trykk">
-                <label for="print"> Jeg ønsker print/trykk av bildene</label><br>
-
-                <p>
-                    Prisestimat:
-                    <span id="priceEstimate">1450</span>,-
-                </p>
-
-                <input id="reset_button" type="reset" value="Tilbakestill skjemaet"><br>
-
-            </form>
-
         </div>
     </div>
 </div>
