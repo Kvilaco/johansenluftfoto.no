@@ -363,14 +363,13 @@ h2, h3 {
 .lightbox__content {
     width: 90%;
     height: calc(100vh - 80px);
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     overflow: hidden;
     position: relative;
-    margin-bottom: 25px;
+    margin: 0 auto 25px;
 }
 
 .lightbox__header {
@@ -492,77 +491,6 @@ h2, h3 {
         width: 100%;
     }
 }
-
-input[type=text] {
-    width: 30%;
-    padding: 20px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 4px;
-    background-color: #082434;
-    color: rgb(255, 255, 255);
-    position: relative;
-    left: 2%;
-  }
-textarea[type=text]{
-    width: 40%;
-    padding: 20px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 4px;
-    background-color: #031c2b;
-    color: rgb(255, 255, 255);
-    position: relative;
-    left: 2%;
-}
-
-#contact_body{
-    background-color: #151d24;
-    height: 100%
-
-}
-
-#contact_header{
-    height: 50px;
-    font-size: xx-large;
-    text-align: left;
-    position: relative;
-    left: 1%;
-    border: 20px solid #151d24;
-}
-
-#contact_button {
-    background-color: #082434;
-    border: 1px solid rgb(255, 255, 255);
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    left: 2%;
-    position: relative;
-    transition-duration: 0.4s;
-  }
-#contact_button:hover {
-    background-color: #1c373b;
-    color: white;
-  }
-#your_message{
-    width: 40%;
-    padding: 20px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 4px;
-    background-color: #031c2b;
-    color: rgb(255, 255, 255);
-    position: relative;
-    left: 2%;
-}
-
 
 .social.about {
     display: block;
