@@ -42,6 +42,11 @@ const footerItems = [
         link: "faq.html",
     },
 
+    {
+        name: "Personvern",
+        link: "privacy_policy.html",
+    },
+
 
 ];
 
