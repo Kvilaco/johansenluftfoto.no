@@ -37,6 +37,11 @@ const footerItems = [
         link: "terms_of_services.html",
     },
 
+    {
+        name: "FAQ",
+        link: "faq.html",
+    },
+
 
 ];
 
